@@ -42,7 +42,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_account_new() {
+    fn account_new() {
         let account = Account::new(1, 1, 1, AccountKind::Available);
         assert_eq!(account.id(), 1);
         assert_eq!(account.wallet_id(), 1);

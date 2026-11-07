@@ -1,14 +1,19 @@
-struct Asset{
+struct Asset {
     id: u32,
     ticker: String,
     name: String,
-    decimals: u8
+    decimals: u8,
 }
 
-impl Asset{
-    pub fn new(id:u32, ticker:String, name:String, decimals:u8) -> Self {
-        Self { id, ticker, name, decimals }
-    }   
+impl Asset {
+    pub fn new(id: u32, ticker: String, name: String, decimals: u8) -> Self {
+        Self {
+            id,
+            ticker,
+            name,
+            decimals,
+        }
+    }
 
     pub fn id(&self) -> &u32 {
         &self.id

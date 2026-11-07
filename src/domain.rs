@@ -1,3 +1,3 @@
-pub mod wallet;
 pub mod account;
 pub mod assets;
+pub mod wallet;

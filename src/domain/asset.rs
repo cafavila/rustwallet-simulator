@@ -1,4 +1,4 @@
-struct Asset {
+pub struct Asset {
     id: u32,
     ticker: String,
     name: String,

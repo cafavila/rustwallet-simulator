@@ -97,6 +97,12 @@ Ejecutar Clippy:
 cargo clippy -- -D warnings
 ```
 
+Ejecutar:
+
+```bash
+cargo run
+```
+
 ## Alcance
 
 RustWallet Simulator es actualmente un proyecto experimental en desarrollo. No se conecta a redes blockchain, no administra criptomonedas reales, no almacena claves privadas ni ejecuta transacciones financieras reales.
